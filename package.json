@@ -1,0 +1,23 @@
+{
+  "name": "11---note-taker",
+  "version": "1.0.0",
+  "description": "![GitHub license](https://img.shields.io/badge/Made%20by-%40hoffman1200-orange) ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CherMill93/ExpressJS-NoteTaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CherMill93/ExpressJS-NoteTaker/issues"
+  },
+  "homepage": "https://github.com/CherMill93/ExpressJS-NoteTaker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
