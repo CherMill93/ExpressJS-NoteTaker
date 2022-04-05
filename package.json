@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/CherMill93/ExpressJS-NoteTaker/issues"
   },
-  "homepage": "https://github.com/CherMill93/ExpressJS-NoteTaker#readme",
+  "homepage": "https://github.com/CherMill93/ExpressJS-NoteTaker#server",
   "dependencies": {
     "express": "^4.17.3"
   }
