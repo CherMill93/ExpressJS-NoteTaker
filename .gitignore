@@ -1,2 +1,8 @@
 node_modules
+<<<<<<< HEAD
 .env
+=======
+package-lock.json
+.vscode
+.DS_Store
+>>>>>>> 822748e06c5cea98b07be5e74571496d0f3ab1c7
