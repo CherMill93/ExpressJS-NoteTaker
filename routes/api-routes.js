@@ -1,23 +1,24 @@
 const fs = require("fs");
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+const router = require('express').Router();
 
 
-module.exports = function(app) {
+module.exports = function(router) {
 
-    app.get("/api/notes", function(req, res) {
+    router.get("/api/notes", function(req, res) {
        
         res.json(data);
 
     });
 
-    app.get("/api/notes/:id", function(req, res) {
+    router.get("/api/notes/:id", function(req, res) {
 
         res.json(data[Number(req.params.id)]);
 
     });
 
 
-    app.post("/api/notes", function(req, res) {
+    router.post("/api/notes", function(req, res) {
 
         let newNote = req.body;
         let uniqueId = (data.length).toString();
@@ -34,7 +35,7 @@ module.exports = function(app) {
     });
 
     
-    app.delete("/api/notes/:id", function(req, res) {
+    router.delete("/api/notes/:id", function(req, res) {
 
         let noteId = req.params.id;
         let newId = 0;
